@@ -350,11 +350,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/CameraFollower.cs"
+"Assets/Interfaces/IDamageable.cs"
 "Assets/LookTowardsMouse.cs"
+"Assets/Player.cs"
 "Assets/PlayerMovement.cs"
 "Assets/PlayerShoot.cs"
-"Assets/Wand.cs"
+"Assets/Target.cs"
+"Assets/TargetMovement.cs"
+"Assets/TargetShoot.cs"
 "Assets/WeaponData.cs"
+"Assets/Weapons/Wand/Wand.cs"
+"Assets/Weapons/Wand/WandBullet.cs"
 -langversion:9.0
 
 /deterministic

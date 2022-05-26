@@ -1,19 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-    //create a system action to shoot
-    System.Action shootInput;
+    public static Action playerShoot;
 
     void Update() 
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            shootInput();
+            playerShoot?.Invoke();
         }
     }
-
-
 }
